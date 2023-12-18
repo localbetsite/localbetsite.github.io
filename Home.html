@@ -90,17 +90,7 @@ div, li:hover, strong:hover  {
 </head>
 <body>
     
-    <tag>
-<?php
-    $_SESSION["nickname"] = $_POST["nickname"];
-    $_SESSION["email"]= $_POST["email"]; 
-
-    echo  $_SESSION["nickname"] . "<br>"; 
-    echo  $_SESSION["email"] . "<br>"
-
-
-    ?> 
-    </tags>
+    
     
 <div class="card">
 <h1>
@@ -121,11 +111,7 @@ div, li:hover, strong:hover  {
 </div>
 <article>
 <div class="article column-4" style="background-color:green;"> 
-<?php
-    $_SESSION["nickname"] = $_POST["nickname"];
 
-    echo "Welcome and enjoy your stay, ";
-    echo $_SESSION["nickname"] . "<br>";
 ?>
 <p><img src="Feel good.png" width="235" height="120"></p>
 <p>LOCAL IS AMAZING, LOCAL IS LEKKER!</p>
@@ -198,8 +184,3 @@ div, li:hover, strong:hover  {
 
 </body>
 </html>
-
-<?php { 
-    include("footer.html");
-}
-?>
