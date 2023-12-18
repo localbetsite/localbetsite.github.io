@@ -33,7 +33,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible"content="IE-edge">
     <meta name="viewpoint" content="width=device-width, initial-scale=1,viewport-fit=cover">
-<title>Document</title> 
+<title>Home</title> 
 <style>
     body {
 background-color: blue;
