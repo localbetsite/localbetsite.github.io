@@ -137,12 +137,12 @@ div, li:hover, strong:hover  {
  <input type="submit" value="submit">
 <div id="header">
  <h1><img src="logo.png" width="223" height="155"></h1>
- <form action="home.php" method="post">
+ <form action="home.php" method=GET">
     <input type="submit" name="logout" value="logout">
  </form>
  <div id="id01" class="w3-panel w3-blue w3-display-container" style="display:none" color="black">
  <span onclick="this.parentElement.style.display='none' class="w3-button w3-display-topright">X</span>
- <form action="home.php" method="post">
+ <form action="home.php" method="GET">
     <input type="submit" name="logout" value="logout">
  </form>
 </div>
